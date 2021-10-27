@@ -1,6 +1,7 @@
 // account structure address, firstname, amount, private_key
 let accounts = [];
 let transactions = [];
+
 function findAccount(name) {
   let account = accounts.find(function (item) {
     if (item.account_name == name) {
@@ -11,6 +12,7 @@ function findAccount(name) {
   });
   return account;
 }
+
 function createNewAccount(name, privateKey) {
   if (findAccount(name) == undefined) {
     let newAccount = {
