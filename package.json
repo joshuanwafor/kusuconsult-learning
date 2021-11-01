@@ -1,0 +1,24 @@
+{
+  "name": "kusuconsult-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assignment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuanwafor/kusuconsult-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuanwafor/kusuconsult-learning/issues"
+  },
+  "homepage": "https://github.com/joshuanwafor/kusuconsult-learning#readme",
+  "dependencies": {
+    "@types/firebase": "^3.2.1",
+    "firebase": "^9.2.0",
+    "twilio": "^3.70.0"
+  }
+}
